@@ -1,0 +1,2 @@
+var s={btnControl:document.querySelector(".control-btn"),form:document.querySelectorAll("form[data-control]")};const{form:e}=s,[o,t]=e;var a=function(s){switch(s.target.classList.value){case"add":o.classList.add("show"),t.classList.remove("show");break;case"update":o.classList.remove("show"),t.classList.add("show");break;case"hide":o.classList.remove("show"),t.classList.remove("show")}};const{btnControl:c}=s;c.addEventListener("click",a);
+//# sourceMappingURL=index.20d76871.js.map
