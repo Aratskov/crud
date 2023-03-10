@@ -1,0 +1,37 @@
+{
+  "books": [
+    {
+      "name": "HTML",
+      "rating": "18",
+      "describe": "",
+      "id": 1
+    },
+    {
+      "name": "CSS",
+      "rating": "18",
+      "describe": "",
+      "id": 2
+    },
+    {
+      "name": "JavaScript",
+      "rating": "18",
+      "describe": "",
+      "id": 3
+    },
+    {
+      "name": "React",
+      "rating": "5",
+      "describe": "",
+      "id": 4,
+      "book": {
+        "raiting": 15
+      }
+    },
+    {
+      "name": "C++",
+      "rating": "12",
+      "describe": "",
+      "id": 5
+    }
+  ]
+}
