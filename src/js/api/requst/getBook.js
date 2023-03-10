@@ -1,14 +1,13 @@
 import { BASE_URL } from "../const";
 
-function fetchBook(){
+async function fetchBook(){
     
-return fetch(`${BASE_URL}`).then(response => {
-if(!response.ok){
-throw new Error(response.Error)
-}
-return response.json()
-})
+const response = await fetch(`${BASE_URL}`)
+if(!response.ok) throw new Error(response.Error)
 
+return response.json()
 }
+
+
 
 export default fetchBook;
